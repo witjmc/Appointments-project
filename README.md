@@ -1,6 +1,7 @@
 # Appointments-project
 
 -- 사용자 테이블
+
 CREATE TABLE users (
     id NUMBER PRIMARY KEY,               -- 사용자 ID (기본 키)
     username VARCHAR2(100) UNIQUE,       -- 사용자 이름 (로그인 아이디)
@@ -11,6 +12,7 @@ CREATE TABLE users (
 );
 
 -- 전문 분야 테이블
+
 CREATE TABLE specializations (
     id NUMBER PRIMARY KEY,               --전문 분야 ID
     group VARCHAR2(100) NOT NULL,        --전문 분야 이름 (예: "심장과", "내과" 등)
@@ -18,6 +20,7 @@ CREATE TABLE specializations (
 );
 
 -- 환자 테이블
+
 CREATE TABLE patients (
     id NUMBER PRIMARY KEY,               -- 환자 테이블 ID 
     user_id NUMBER,                      -- users 테이블의 id 참조
@@ -26,6 +29,7 @@ CREATE TABLE patients (
 );
 
 -- 의사 테이블
+
 CREATE TABLE doctors (
     id NUMBER PRIMARY KEY,               -- 의사 테이블 ID 
     user_id NUMBER,                      -- users 테이블의 id 참조
@@ -37,6 +41,7 @@ CREATE TABLE doctors (
 
 
 -- 예약 테이블
+
 CREATE TABLE appointments (
     id NUMBER PRIMARY KEY,               -- 예약 ID
     patient_id NUMBER,                    -- 환자 ID (환자 테이블의 id 참조)
