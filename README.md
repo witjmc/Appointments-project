@@ -22,7 +22,7 @@
                       # npm install --save-dev @nrwl/workspace @nrwl/node
 
 
-       - @nrwl/react, @nrwl/vue 프레임워크를 설치하지 않아서, node 로 설치해야함
+          - @nrwl/react, @nrwl/vue 프레임워크를 설치하지 않아서, node 로 설치해야함
     
 
 
@@ -38,7 +38,7 @@
 
 
          
-          o 프로젝트 의존성 확인
+     o 프로젝트 의존성 확인
      
 
                         # npx nx show project appointment-app
@@ -46,7 +46,7 @@
 
 
 
-          o 애플리케이션 실행
+     o 애플리케이션 실행
      
 
                          # npx nx run appointment-app:serve
