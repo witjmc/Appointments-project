@@ -148,7 +148,7 @@
                     id NUMBER PRIMARY KEY,               -- 의사 테이블 ID 
                     user_id NUMBER,                      -- users 테이블의 id 참조
                     specialization_id NUMBER ,     -- 전문 분야 ID (specializations 테이블 참조)
-                    FOREIGN KEY (specialization_id) REFERENCES specializations(id)  -- 외래 키: `specializations` 테이블 참조
+                    FOREIGN KEY (specialization_id) REFERENCES specializations(id),  -- 외래 키: `specializations` 테이블 참조
                     FOREIGN KEY (user_id) REFERENCES users(id)  -- 외래 키: `users` 테이블 참조
                 );
 
