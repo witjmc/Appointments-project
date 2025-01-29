@@ -4,7 +4,7 @@
             
                        # npx create-nx-workspace@latest <workspace-name:project-appiontment> 
 
-     -stack/framwork : None ( Configures a TypeScript/JavaScript monorepo)
+      -stack/framwork : None ( Configures a TypeScript/JavaScript monorepo)
 
   2) 애플리케이션 생성 
 
@@ -20,6 +20,8 @@
         o 없으면, 설치
      
                       # npm install --save-dev @nrwl/workspace @nrwl/node
+
+          - @nrwl/react, @nrwl/vue 프레임워크를 설치하지 않아서, node 로 설치해야함
                      
 #  
 
