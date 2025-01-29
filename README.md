@@ -102,6 +102,8 @@
 # 데이터베이스 테이블
 
               1. 사용자 테이블
+
+              
                   
                   CREATE TABLE users (
                       id NUMBER PRIMARY KEY,               -- 사용자 ID (기본 키)
