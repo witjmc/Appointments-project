@@ -55,7 +55,7 @@
 
 
 
-           - tsconfig.base.json/ tsconfig.json  파일에 속성 맞추기:
+     - tsconfig.base.json/ tsconfig.json  파일에 속성 맞추기:
              "module": "NodeNext",
              "moduleResolution": "NodeNext",
 
@@ -82,12 +82,17 @@
 # 데이터베이스 설치 : Oracle 
 
   1. 프로젝트 위치
+     
                       #cd appiontment-app
+
      
   2.  oracle 라이브러리 설치
+     
                       # npm install oracledb 
+
   
   3. typescript 패키지 설치
+     
                       # npm install --save-dev @types/oracledb
                  
 
