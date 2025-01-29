@@ -70,6 +70,7 @@
                       # npx nx generate @nrwl/node:library shared-utils
 
   5) 빌드
+     
                       # npx nx run appointment-app:build
 
               
