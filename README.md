@@ -99,5 +99,15 @@
                       # npm install --save-dev @types/oracledb
                  
 
+# 데이터베이스 테이블
 
-
+              1. 사용자 테이블
+                  
+                  CREATE TABLE users (
+                      id NUMBER PRIMARY KEY,               -- 사용자 ID (기본 키)
+                      username VARCHAR2(100) UNIQUE,       -- 사용자 이름 (로그인 아이디)
+                      password VARCHAR2(255),              -- 암호 (비밀번호)
+                      role VARCHAR2(50),                   -- 역할 (admin, doctor, patient 등)
+                      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,  -- 생성일
+                      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- 수정일
+                  );
