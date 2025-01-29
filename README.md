@@ -168,7 +168,7 @@
                     created_by NUMBER,                    -- 예약을 생성한 사용자 (관리자 또는 환자)
                     FOREIGN KEY (patient_id) REFERENCES patients(id),  -- 외래 키: `patients` 테이블 참조
                     FOREIGN KEY (doctor_id) REFERENCES doctors(id),   -- 외래 키: `doctors` 테이블 참조
-                    FOREIGN KEY (specialization_id) REFERENCES specializations(id)  -- 외래 키: `specializations` 테이블 참조
+                    FOREIGN KEY (specialization_id) REFERENCES specializations(id),  -- 외래 키: `specializations` 테이블 참조
                     FOREIGN KEY (created_by) REFERENCES users(id)   -- 예약을 생성한 사용자의 외래 키  
                   );
 
