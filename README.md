@@ -22,7 +22,8 @@
                       # npm install --save-dev @nrwl/workspace @nrwl/node
 
 
-          - @nrwl/react, @nrwl/vue 프레임워크를 설치하지 않아서, node 로 설치해야함
+
+        - @nrwl/react, @nrwl/vue 프레임워크를 설치하지 않아서, node 로 설치해야함
     
 
 
@@ -55,7 +56,8 @@
 
 
 
-     - tsconfig.base.json/ tsconfig.json  파일에 속성 맞추기:
+
+      - tsconfig.base.json/ tsconfig.json  파일에 속성 맞추기:
              "module": "NodeNext",
              "moduleResolution": "NodeNext",
 
