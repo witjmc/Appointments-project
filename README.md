@@ -23,7 +23,7 @@
 
 
 
-        - @nrwl/react, @nrwl/vue 프레임워크를 설치하지 않아서, node 로 설치해야함
+      -@nrwl/react, @nrwl/vue 프레임워크를 설치하지 않아서, node 로 설치해야함
     
 
 
@@ -57,7 +57,7 @@
 
 
 
-      - tsconfig.base.json/ tsconfig.json  파일에 속성 맞추기:
+    -tsconfig.base.json/ tsconfig.json  파일에 속성 맞추기:
              "module": "NodeNext",
              "moduleResolution": "NodeNext",
 
@@ -128,5 +128,16 @@
                   );
 
 
+
+  3. 환자 테이블
+
+
+                CREATE TABLE patients (
+                    id NUMBER PRIMARY KEY,               -- 환자 테이블 ID 
+                    user_id NUMBER,                      -- users 테이블의 id 참조
+                    date_of_birth DATE,                   -- 생년월일
+                    FOREIGN KEY (user_id) REFERENCES users(id)  -- 외래 키: `users` 테이블 참조
+                  );
+                   
                   
                 
