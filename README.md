@@ -34,14 +34,22 @@
                       # npx nx generate @nrwl/node:application <your-app-name> --frontendFramework=none --verbose
 
 
+
+
          o 프로젝트 의존성 확인
+     
 
                       # npx nx show project appointment-app
 
 
-         o 애플리케이션 실행   
+
+
+         o 애플리케이션 실행
+     
 
                        # npx nx run appointment-app:serve
+
+
 
 
 
@@ -50,17 +58,17 @@
              "moduleResolution": "NodeNext",
 
 
-  3)  라이브러리 생성
+  4)  라이브러리 생성
 
                       # npx nx generate @nrwl/workspace:library shared-utils
 
                       # npx nx generate @nrwl/node:library shared-utils
 
-  4) 빌드
+  5) 빌드
                       # npx nx run appointment-app:build
 
               
-  5) 테스트
+  6) 테스트
      
                       # npx nx run appointment-app:test
      
