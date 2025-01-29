@@ -31,7 +31,15 @@
                       # npx nx generate @nrwl/workspace:application <your-app-name:appointment-app>
 
 
+                     
                       # npx nx generate @nrwl/node:application <your-app-name> --frontendFramework=none --verbose
+
+
+
+
+
+
+
 
 
 
