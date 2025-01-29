@@ -123,7 +123,7 @@
 
                   CREATE TABLE specializations (
                       id NUMBER PRIMARY KEY,               --전문 분야 ID
-                      group VARCHAR2(100) NOT NULL,        --전문 분야 이름 (예: "심장과", "내과" 등)
+                      spe_group VARCHAR2(100) NOT NULL,        --전문 분야 이름 (예: "심장과", "내과" 등)
                       description VARCHAR2(255)           -- 전문 분야 설명
                   );
 
