@@ -93,9 +93,7 @@
      
                       # npm install oracledb
 
-
-
-                         # npm install oracledb@latest
+                      # npm install oracledb@latest
 
 
   
