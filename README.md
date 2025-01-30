@@ -91,18 +91,19 @@
      
   2.  oracle 라이브러리 설치
      
-                      # npm install oracledb 
+                      # npm install oracledb
+
+
+
+                       # npm install oracledb@latest
+
 
   
-  3. typescript 패키지 설치
+  4. typescript 패키지 설치
      
                       # npm install --save-dev @types/oracledb
 
-
-
-                     # npm install oracledb@latest
-
-                 
+            
 
 # 데이터베이스 테이블
 
