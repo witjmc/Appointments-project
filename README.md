@@ -176,6 +176,9 @@
                     FOREIGN KEY (created_by) REFERENCES users(id)   -- 예약을 생성한 사용자의 외래 키  
                   );
 
-               
+              ![image](https://github.com/user-attachments/assets/601ca4dc-d746-488f-be69-a5a8c408e2f1)
+
+
+
 
              
